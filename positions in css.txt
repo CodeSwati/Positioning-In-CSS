@@ -1,0 +1,15 @@
+Q2) Explain the difference between absolute and relative positioning.
+Ans)Relative - the element is positioned relative to its normal position.
+Absolute - the element is positioned absolutely to its first positioned parent.
+
+Q5) what is the z-index in css
+Ans)The z-index property specifies the stack order of an element.
+An element with greater stack order is always in front of an element with a lower stack order.
+
+exp)
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
